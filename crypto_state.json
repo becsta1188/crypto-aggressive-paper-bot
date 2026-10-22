@@ -1,0 +1,15 @@
+{
+  "currency": "USDT",
+  "cash": 1000.0,
+  "positions": {},
+  "trades": [],
+  "snapshots": [
+    {
+      "bar_utc_ms": 1792702800000,
+      "cash_usdt": 1000.0,
+      "holdings_usdt": 0,
+      "total_usdt": 1000.0
+    }
+  ],
+  "last_processed_bar": 1792702800000
+}
