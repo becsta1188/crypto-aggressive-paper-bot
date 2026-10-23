@@ -1,10 +1,14 @@
 {
   "currency": "USDT",
-  "cash": 600.0,
+  "cash": 199.99999999999994,
   "positions": {
     "DOTUSDT": {
       "quantity": 346.1829809135198,
       "entry": 1.154304
+    },
+    "BCHUSDT": {
+      "quantity": 1.3905257810752263,
+      "entry": 287.3736
     }
   },
   "trades": [
@@ -16,6 +20,15 @@
       "fill_usdt": 1.154304,
       "fee_usdt": 0.3996003996003996,
       "reason": "momentum score 0.0234"
+    },
+    {
+      "bar_utc_ms": 1792728000000,
+      "symbol": "BCHUSDT",
+      "side": "BUY",
+      "quantity": 1.3905257810752263,
+      "fill_usdt": 287.3736,
+      "fee_usdt": 0.39960039960039967,
+      "reason": "momentum score 0.0379"
     }
   ],
   "snapshots": [
@@ -60,7 +73,13 @@
       "cash_usdt": 600.0,
       "holdings_usdt": 409.534466,
       "total_usdt": 1009.534466
+    },
+    {
+      "bar_utc_ms": 1792728000000,
+      "cash_usdt": 200.0,
+      "holdings_usdt": 802.798333,
+      "total_usdt": 1002.798333
     }
   ],
-  "last_processed_bar": 1792724400000
+  "last_processed_bar": 1792728000000
 }
