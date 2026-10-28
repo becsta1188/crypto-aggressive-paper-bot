@@ -1,6 +1,6 @@
 {
   "currency": "USDT",
-  "cash": 165.85383179694549,
+  "cash": -2.842170943040401e-14,
   "positions": {
     "BCHUSDT": {
       "quantity": 1.3905257810752263,
@@ -9,6 +9,10 @@
     "UNIUSDT": {
       "quantity": 56.51967035322774,
       "entry": 7.070112
+    },
+    "LTCUSDT": {
+      "quantity": 2.7777159213119575,
+      "entry": 59.64906
     }
   },
   "trades": [
@@ -47,6 +51,15 @@
       "fill_usdt": 7.070112,
       "fee_usdt": 0.39960039960039967,
       "reason": "momentum score 0.0410"
+    },
+    {
+      "bar_utc_ms": 1793214000000,
+      "symbol": "LTCUSDT",
+      "side": "BUY",
+      "quantity": 2.7777159213119575,
+      "fill_usdt": 59.64906,
+      "fee_usdt": 0.16568814365329224,
+      "reason": "momentum score 0.0425"
     }
   ],
   "snapshots": [
@@ -889,7 +902,13 @@
       "cash_usdt": 165.853832,
       "holdings_usdt": 802.998369,
       "total_usdt": 968.8522
+    },
+    {
+      "bar_utc_ms": 1793214000000,
+      "cash_usdt": -0.0,
+      "holdings_usdt": 975.757036,
+      "total_usdt": 975.757036
     }
   ],
-  "last_processed_bar": 1793210400000
+  "last_processed_bar": 1793214000000
 }
