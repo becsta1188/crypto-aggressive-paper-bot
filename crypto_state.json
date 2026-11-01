@@ -1460,7 +1460,13 @@
       "cash_usdt": -0.0,
       "holdings_usdt": 897.37608,
       "total_usdt": 897.37608
+    },
+    {
+      "bar_utc_ms": 1793527200000,
+      "cash_usdt": -0.0,
+      "holdings_usdt": 894.860503,
+      "total_usdt": 894.860503
     }
   ],
-  "last_processed_bar": 1793523600000
+  "last_processed_bar": 1793527200000
 }
