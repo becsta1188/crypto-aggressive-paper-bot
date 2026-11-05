@@ -2012,7 +2012,13 @@
       "cash_usdt": -0.0,
       "holdings_usdt": 906.131579,
       "total_usdt": 906.131579
+    },
+    {
+      "bar_utc_ms": 1793872800000,
+      "cash_usdt": -0.0,
+      "holdings_usdt": 902.149597,
+      "total_usdt": 902.149597
     }
   ],
-  "last_processed_bar": 1793869200000
+  "last_processed_bar": 1793872800000
 }
