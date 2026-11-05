@@ -1,14 +1,10 @@
 {
   "currency": "USDT",
-  "cash": -1.4210854715202004e-14,
+  "cash": 364.1548693837859,
   "positions": {
     "BCHUSDT": {
       "quantity": 1.3905257810752263,
       "entry": 287.3736
-    },
-    "AVAXUSDT": {
-      "quantity": 44.55897139803073,
-      "entry": 8.967899999999998
     },
     "UNIUSDT": {
       "quantity": 15.057641895815907,
@@ -96,6 +92,15 @@
       "fill_usdt": 7.317606,
       "fee_usdt": 0.11018589068267386,
       "reason": "momentum score 0.0331"
+    },
+    {
+      "bar_utc_ms": 1793890800000,
+      "symbol": "AVAXUSDT",
+      "side": "SELL",
+      "quantity": 44.55897139803073,
+      "fill_usdt": 8.180606,
+      "fee_usdt": 0.3645193887725585,
+      "reason": "stop-loss signal"
     }
   ],
   "snapshots": [
@@ -2036,7 +2041,13 @@
       "cash_usdt": -0.0,
       "holdings_usdt": 884.225488,
       "total_usdt": 884.225488
+    },
+    {
+      "bar_utc_ms": 1793890800000,
+      "cash_usdt": 364.154869,
+      "holdings_usdt": 489.987274,
+      "total_usdt": 854.142144
     }
   ],
-  "last_processed_bar": 1793887200000
+  "last_processed_bar": 1793890800000
 }
