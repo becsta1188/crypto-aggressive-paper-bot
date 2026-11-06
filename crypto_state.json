@@ -1,11 +1,7 @@
 {
   "currency": "USDT",
-  "cash": 364.1548693837859,
+  "cash": 730.4303847636032,
   "positions": {
-    "BCHUSDT": {
-      "quantity": 1.3905257810752263,
-      "entry": 287.3736
-    },
     "UNIUSDT": {
       "quantity": 15.057641895815907,
       "entry": 7.317606
@@ -100,6 +96,15 @@
       "quantity": 44.55897139803073,
       "fill_usdt": 8.180606,
       "fee_usdt": 0.3645193887725585,
+      "reason": "stop-loss signal"
+    },
+    {
+      "bar_utc_ms": 1793948400000,
+      "symbol": "BCHUSDT",
+      "side": "SELL",
+      "quantity": 1.3905257810752263,
+      "fill_usdt": 263.6716,
+      "fee_usdt": 0.36664215753735463,
       "reason": "stop-loss signal"
     }
   ],
@@ -2131,7 +2136,13 @@
       "cash_usdt": 364.154869,
       "holdings_usdt": 486.66077,
       "total_usdt": 850.815639
+    },
+    {
+      "bar_utc_ms": 1793948400000,
+      "cash_usdt": 730.430385,
+      "holdings_usdt": 106.412355,
+      "total_usdt": 836.84274
     }
   ],
-  "last_processed_bar": 1793941200000
+  "last_processed_bar": 1793948400000
 }
