@@ -1,10 +1,14 @@
 {
   "currency": "USDT",
-  "cash": 430.80395364866956,
+  "cash": 30.80395364866945,
   "positions": {
     "AVAXUSDT": {
       "quantity": 45.24651622559279,
       "entry": 8.831628
+    },
+    "LINKUSDT": {
+      "quantity": 36.956982115872016,
+      "entry": 10.812582
     }
   },
   "trades": [
@@ -124,6 +128,15 @@
       "fill_usdt": 8.831628,
       "fee_usdt": 0.3996003996003996,
       "reason": "momentum score 0.1060"
+    },
+    {
+      "bar_utc_ms": 1794236400000,
+      "symbol": "LINKUSDT",
+      "side": "BUY",
+      "quantity": 36.956982115872016,
+      "fill_usdt": 10.812582,
+      "fee_usdt": 0.3996003996003997,
+      "reason": "momentum score 0.0228"
     }
   ],
   "snapshots": [
@@ -2622,7 +2635,13 @@
       "cash_usdt": 430.803954,
       "holdings_usdt": 401.336599,
       "total_usdt": 832.140553
+    },
+    {
+      "bar_utc_ms": 1794236400000,
+      "cash_usdt": 30.803954,
+      "holdings_usdt": 805.8857,
+      "total_usdt": 836.689654
     }
   ],
-  "last_processed_bar": 1794232800000
+  "last_processed_bar": 1794236400000
 }
