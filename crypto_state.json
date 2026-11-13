@@ -1,16 +1,7 @@
 {
   "currency": "USDT",
-  "cash": 364.6298475862035,
-  "positions": {
-    "AVAXUSDT": {
-      "quantity": 45.24651622559279,
-      "entry": 8.831628
-    },
-    "DOTUSDT": {
-      "quantity": 34.702550230839165,
-      "entry": 0.8867700000000001
-    }
-  },
+  "cash": 756.5158354406269,
+  "positions": {},
   "trades": [
     {
       "bar_utc_ms": 1792717200000,
@@ -154,6 +145,24 @@
       "quantity": 36.956982115872016,
       "fill_usdt": 9.876208,
       "fee_usdt": 0.3649948424286321,
+      "reason": "stop-loss signal"
+    },
+    {
+      "bar_utc_ms": 1794538800000,
+      "symbol": "AVAXUSDT",
+      "side": "SELL",
+      "quantity": 45.24651622559279,
+      "fill_usdt": 8.052862000000001,
+      "fee_usdt": 0.36436395114545966,
+      "reason": "stop-loss signal"
+    },
+    {
+      "bar_utc_ms": 1794538800000,
+      "symbol": "DOTUSDT",
+      "side": "SELL",
+      "quantity": 34.702550230839165,
+      "fill_usdt": 0.8043880000000001,
+      "fee_usdt": 0.02791431497508426,
       "reason": "stop-loss signal"
     }
   ],
@@ -3115,7 +3124,13 @@
       "cash_usdt": 364.629848,
       "holdings_usdt": 401.732377,
       "total_usdt": 766.362224
+    },
+    {
+      "bar_utc_ms": 1794538800000,
+      "cash_usdt": 756.515835,
+      "holdings_usdt": 0,
+      "total_usdt": 756.515835
     }
   ],
-  "last_processed_bar": 1794535200000
+  "last_processed_bar": 1794538800000
 }
