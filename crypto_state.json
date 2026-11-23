@@ -1,7 +1,16 @@
 {
   "currency": "USDT",
-  "cash": 756.5158354406269,
-  "positions": {},
+  "cash": 0.0,
+  "positions": {
+    "UNIUSDT": {
+      "quantity": 78.25800510446916,
+      "entry": 5.106192
+    },
+    "XRPUSDT": {
+      "quantity": 358.0987086524735,
+      "entry": 0.9945852000000001
+    }
+  },
   "trades": [
     {
       "bar_utc_ms": 1792717200000,
@@ -164,6 +173,24 @@
       "fill_usdt": 0.8043880000000001,
       "fee_usdt": 0.02791431497508426,
       "reason": "stop-loss signal"
+    },
+    {
+      "bar_utc_ms": 1795446000000,
+      "symbol": "UNIUSDT",
+      "side": "BUY",
+      "quantity": 78.25800510446916,
+      "fill_usdt": 5.106192,
+      "fee_usdt": 0.3996003996003996,
+      "reason": "momentum score 0.0770"
+    },
+    {
+      "bar_utc_ms": 1795446000000,
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "quantity": 358.0987086524735,
+      "fill_usdt": 0.9945852000000001,
+      "fee_usdt": 0.35615967576486207,
+      "reason": "momentum score 0.0636"
     }
   ],
   "snapshots": [
@@ -3964,7 +3991,13 @@
       "cash_usdt": 756.515835,
       "holdings_usdt": 0,
       "total_usdt": 756.515835
+    },
+    {
+      "bar_utc_ms": 1795446000000,
+      "cash_usdt": 0.0,
+      "holdings_usdt": 754.251572,
+      "total_usdt": 754.251572
     }
   ],
-  "last_processed_bar": 1795406400000
+  "last_processed_bar": 1795446000000
 }
