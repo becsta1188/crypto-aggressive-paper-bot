@@ -1,12 +1,7 @@
 {
   "currency": "USDT",
-  "cash": 360.31200396065645,
-  "positions": {
-    "XRPUSDT": {
-      "quantity": 358.0987086524735,
-      "entry": 0.9945852000000001
-    }
-  },
+  "cash": 684.0266881746468,
+  "positions": {},
   "trades": [
     {
       "bar_utc_ms": 1792717200000,
@@ -195,6 +190,15 @@
       "quantity": 78.25800510446916,
       "fill_usdt": 4.608764000000001,
       "fee_usdt": 0.36067267663729374,
+      "reason": "stop-loss signal"
+    },
+    {
+      "bar_utc_ms": 1795622400000,
+      "symbol": "XRPUSDT",
+      "side": "SELL",
+      "quantity": 358.0987086524735,
+      "fill_usdt": 0.9048866,
+      "fee_usdt": 0.3240387229369273,
       "reason": "stop-loss signal"
     }
   ],
@@ -4026,7 +4030,13 @@
       "cash_usdt": 360.312004,
       "holdings_usdt": 328.448136,
       "total_usdt": 688.76014
+    },
+    {
+      "bar_utc_ms": 1795622400000,
+      "cash_usdt": 684.026688,
+      "holdings_usdt": 0,
+      "total_usdt": 684.026688
     }
   ],
-  "last_processed_bar": 1795582800000
+  "last_processed_bar": 1795622400000
 }
